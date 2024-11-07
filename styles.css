@@ -1,0 +1,60 @@
+/* Reset de estilo */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos generales de la página */
+body {
+  display: flex;
+  justify-content: center;      /* Centra el contenido horizontalmente */
+  align-items: center;          /* Centra el contenido verticalmente */
+  min-height: 100vh;            /* Asegura que el body ocupe toda la altura de la ventana */
+  background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%);  /* Fondo con degradado */
+  font-family: Arial, sans-serif;
+  color: #333;
+  text-align: center;
+  overflow-x: hidden;           /* Evita el desplazamiento horizontal */
+}
+
+/* Estilos del contenedor principal */
+.container {
+  max-width: 600px;             /* Limita el ancho máximo */
+  padding: 20px;                /* Espaciado interno */
+  background: #fff;             /* Fondo blanco */
+  border-radius: 15px;          /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+  margin: 20px;                 /* Margen para el contenedor */
+}
+
+/* Estilo para el título */
+h1 {
+  font-size: 2.5em;
+  color: #ff577f;               /* Color rosa */
+  margin-bottom: 20px;          /* Espaciado debajo del título */
+}
+
+/* Estilo para los párrafos */
+p {
+  font-size: 1.2em;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* Estilo para el botón */
+button {
+  padding: 10px 20px;
+  font-size: 1em;
+  color: #fff;
+  background-color: #ff6b81;    /* Fondo rosa */
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Estilo para el hover del botón */
+button:hover {
+  background-color: #ff4757;    /* Cambio de color cuando el mouse pasa por encima */
+}
